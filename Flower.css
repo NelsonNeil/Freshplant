@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**Welcome content Page css**/
+div.content {
+    position: relative; 
+    top: 0;
+    clear: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  div.banner {
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .banner-img {
+    position: relative;
+  }
+  .text-banner {
+    position: absolute;
+    top: 240px;
+    width: 100%;
+    text-align: center;
+    background-color: #1D1F20;
+  }
+  
+  .text-banner > h2 {
+    color: #fff;
+    font-size: 2.25em; 
+    margin: 0 0 3px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  
+  .text-banner > h3 {
+    color: #fff;
+    margin: 0 0 3px;
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  .card-footer button:hover {
+    background-color: darkred;
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
